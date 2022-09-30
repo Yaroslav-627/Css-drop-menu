@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&family=Roboto:ital@1&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Oswald;
+}
+head, body{
+    background-color: #222;
+}
+li{
+    list-style: none;
+}
+.logo_href{
+    color: #DFF6FF;
+    text-decoration: none;
+    font-family: Fairwall Sans;
+    font-size: 46px;
+}
+.header{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #06283D;
+}
+.ul{
+    display: flex;
+    justify-content: space-around;
+}
+.img{
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+}
+.li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+    margin: 7px 15px;
+    position: relative;
+}
+.a{
+    color: #256D85;
+    text-decoration: none;
+}
+.li:hover{
+    background-color: #256D85;
+    cursor: pointer;
+    border-radius: 10px 10px 0 0;
+}
+.li:hover .menu_drop{
+    display: inline-block;
+}
+.li:hover .a{
+    color: #06283D;
+}
+.menu_drop{
+    width: 100%;
+    display: none;
+    position: absolute;
+    top: 40px;
+    background-color: #256D85;
+    border-radius: 0 0 10px 10px;
+}
+.menu_drop-list{
+    text-align: center;
+    padding: 10px 0;
+}
